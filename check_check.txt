@@ -1,0 +1,61 @@
+# given a list [1,2,3,4] . add 1 to the last digit.
+# list is not empty
+# # list is non negative
+
+# sometimes list is [9,9,9]. adding 1 will give [1,0,0,0].
+# so return a new list
+# or if list is [1,9,9] . adding 1 will give [2,0,0].
+
+
+
+1. context switching
+2. Trashing
+3. Dynamically allocating and releasing objects
+
+    memory management
+
+    c  memeory allocation / deallocate
+    java/python
+
+    everythong is object
+
+    num = 1
+    datatype = nothing
+
+    num = "stringvaraible"
+    num = 0.0
+
+    int var = 1
+    name = var
+    datatype = int
+    value = 1
+
+    object value =1         object remove
+    1
+    0
+
+    num = 2
+    object value = 2        object = remove
+
+    num =3
+    object value=3 name = num
+
+
+    num = 1  # object with value 1 will have referecne count  = 1 and name = num
+    num = 2 # object wth value 1 wll have ref count = 0 and no name. object with value 2 will have referecne count  = 1 and name = num
+
+
+
+    a = "db"
+
+    name a value db
+
+    obj = MyClass()
+
+    obj nmae value
+
+
+4. Using virtual memory
+5. using critical sections
+6.
+

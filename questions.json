@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "5c064b262b5e70e2734f2f35",
+    "index": 0,
+    "guid": "48f90b72-942c-433d-9acf-3b172cdd5822",
+    "isActive": true,
+    "balance": "$2,854.25",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "brown",
+    "name": "Lesa Caldwell",
+    "gender": "female",
+    "company": "DUFLEX",
+    "email": "lesacaldwell@duflex.com",
+    "phone": "+1 (877) 434-2782",
+    "address": "565 Crooke Avenue, Derwood, Utah, 3182",
+    "about": "Tempor consequat cupidatat sint Lorem. Officia irure veniam ullamco duis commodo amet labore fugiat. Aute fugiat nulla velit sit sint ut minim. Est voluptate dolor duis non sit mollit consequat laboris nostrud aute veniam voluptate deserunt. Occaecat officia pariatur aute labore pariatur et occaecat. Sunt officia velit tempor enim aliqua occaecat amet culpa velit eu tempor. Mollit elit officia reprehenderit reprehenderit fugiat adipisicing aute in commodo labore.\r\n",
+    "registered": "2018-08-12T07:47:50 +07:00",
+    "latitude": 6.983455,
+    "longitude": 86.431745,
+    "tags": [
+      "laboris",
+      "velit",
+      "mollit",
+      "aute",
+      "quis",
+      "anim",
+      "veniam"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Beth Blake"
+      },
+      {
+        "id": 1,
+        "name": "Lucile Hubbard"
+      },
+      {
+        "id": 2,
+        "name": "Kinney Mullen"
+      }
+    ],
+    "greeting": "Hello, Lesa Caldwell! You have 9 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]
