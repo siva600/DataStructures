@@ -20,4 +20,26 @@ def quicksort(array):
         return quicksort(less) + [pivot] + quicksort(greater)
 
 
+def qsort(x, l, r):
+    i = l
+    j = r
+    p = x[l + (r - l) // 2] # pivot element in the middle
+    while i <= j:
+        while x[i] < p: i += 1
+        while x[j] > p: j -= 1
+        if i <= j: # swap 
+            x[i], x[j] = x[j], x[i]
+            i += 1
+            j -= 1
+    if l < j: # sort left list
+        qsort(x, l, j)
+    if i < r: # sort right list
+        qsort(x, i, r)
+    return x
+
+
+
+x = [10,9,8,7,6,5,4,3,2,1]
+print(qsort(x, 0, len(x)-1))
+
 print(quicksort([10,5,2,3]))
