@@ -1,7 +1,7 @@
 #
 import re
 def de_fang(modified_ip_address):
-    pattern = "^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$"
+    pattern = '^\d\d[\D]*\d\d\d[\D]*\d[\D]*\d\d\d'
     ret = re.match(pattern, modified_ip_address)
     if ret:
         return True
